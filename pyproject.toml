@@ -1,0 +1,19 @@
+[project]
+name = "webscraping"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ricardo", email = "101021873+ricardorodrigues-60hz@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "selenium>=4.49.0",
+]
+
+[project.scripts]
+webscraping = "webscraping:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
